@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "prettier": "npx prettier --write src" 
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +40,7 @@
   "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-config-strongloop": "^2.1.0",
-    "eslint-plugin-react": "^7.21.5"
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "2.2.1"
   }
 }
