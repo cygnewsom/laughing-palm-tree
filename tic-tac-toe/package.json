@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-path .gitignore .",
-    "prettier": "npx prettier --write src" 
+    "prettier": "npx prettier --write src"
   },
   "eslintConfig": {
     "extends": [
